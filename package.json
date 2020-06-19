@@ -1,0 +1,22 @@
+{
+  "name": "fbt-flow-schema-testing-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Zeshan Mehmood",
+  "dependencies": {
+    "apollo-server": "^2.15.0",
+    "apollo-server-express": "^2.15.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.7.5",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

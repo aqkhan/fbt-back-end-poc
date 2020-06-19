@@ -1,0 +1,41 @@
+query {
+  weeklyAppointments(startDate : "2020-05-04", endDate : "2020-05-11"){
+     _id
+     id
+    name
+    phone
+    speciality
+    streetAddress
+    clinicType
+    address
+    appointments {
+    _id
+    startTime
+  }    
+  }
+}
+
+
+query{
+  getClinic( date : "2020-06" ){
+    _id
+     id
+    name
+    phone
+    speciality
+    streetAddress
+    clinicType
+    address
+    appointments {
+    _id
+    startTime
+  }
+  }
+}
+
+
+query {
+  appointments {
+    id
+  }
+}

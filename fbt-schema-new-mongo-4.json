@@ -1,0 +1,74 @@
+{	 "clinics": [
+        {   
+            "uniqueIdentifier": "UUID",
+            "clinicName": "Some Clinic Name Pvt, LTD",
+            "covetrusIntegration": false,
+            "ezyVetIntegration": true
+        }
+    ],
+     "appointments": [
+            {    
+                "uniqueIdentifier": "UUID",
+                "petOwnerID": "UUID PetOwner Ref",
+                "petID": "UUID Pet Ref",
+                "clinicID": "UUID",
+                "startTime": "UNIX_TIMESTAMP",
+                "appointmentStatus": "IN_HOSPITAL",
+                "trackingComponent": "SOME_VALUE",
+                "food": "SOME_VALUE",
+                "bowlMovements": [
+                    {
+                        "someKey1": "SOME_VALUE",
+                        "someKey2": "SOME_VALUE",
+                        "someKey3": "SOME_VALUE"
+                    },
+                    {
+                        "someKey1": "SOME_VALUE",
+                        "someKey2": "SOME_VALUE",
+                        "someKey3": "SOME_VALUE"
+                    }
+                ],
+                "medication": [
+                    {
+                        "someKey1": "SOME_VALUE"
+                    }
+                ],
+                "snapshot": [
+                    {
+                        "someKey1": "SOME_VALUE"
+                    }
+                ]
+            }
+       ],
+    "petOwners": [
+           {
+               "uniqueIdentifier": "UUID",
+               "name": "ALONG WITH OTHER DETAILS",
+               "pets": [
+                   {
+                       "id" : "UUID Pet Ref"
+                    },
+                    {
+                        "id" : "UUID Pet Ref"
+                     }
+               ]
+           }
+        ],
+    "pets": [
+            {
+                "uniqueIdentifier": "UUID",
+                "petOwnerID": "UUID",
+                "name": "ALONG WITH OTHER DETAILS",
+                "appointments": [
+                    {
+                        "id" : "UUID Appointment Ref"
+                     },
+                     {
+                         "id" : "UUID Appointment Ref"
+                      }
+                ]
+            }
+        ]
+        
+}
+    
